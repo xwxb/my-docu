@@ -1,10 +1,13 @@
+待修复
+
+```react
+
 import React from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { makeStyles } from '@material-ui/core/styles';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Grid from '@material-ui/core/Grid';
 import Icon from '@material-ui/core/Icon';
+import Favico from 'favico.js';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -30,14 +33,26 @@ function LinksPage() {
     {
       url: 'https://www.example.com',
       label: 'Example',
-      icon: 'link',
     },
     {
-      url: 'https://my-docu-xban12.vercel.app/',
+      url: 'https://www.another-example.com',
       label: 'Another Example',
-      icon: 'https://s2.loli.net/2022/07/30/ENgfwdO1VpoWjKJ.png',
     },
   ];
+
+  const favico = new Favico({
+    animation: 'none',
+  });
+
+  links.forEach((link) => {
+    favico.get(link.url, (error, icon) => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+      link.icon = icon;
+    });
+  });
 
   return (
     <div className={classes.root}>
@@ -60,13 +75,8 @@ function LinksPage() {
   );
 }
 
-// export default LinksPage
+export default LinksPage;
 
-export default function Repo(){
-    const {siteConfig} = useDocusaurusContext();
-    return (
-        <Layout>
-            <LinksPage />
-        </Layout>
-      );
-} 
+
+
+```
