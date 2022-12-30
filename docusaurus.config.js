@@ -73,7 +73,7 @@ const config = {
         title: 'Spirt. ArtAcad',
         logo: {
           alt: 'My Site Logo',
-          src: 'https://img.moegirl.org.cn/common/thumb/5/5b/%E4%BC%8A%E5%9C%B0%E7%9F%A5%E8%99%B9%E5%A4%8F%E5%A4%B4%E8%B4%B4.png/200px-%E4%BC%8A%E5%9C%B0%E7%9F%A5%E8%99%B9%E5%A4%8F%E5%A4%B4%E8%B4%B4.png',
+          src: 'https://s2.loli.net/2022/12/30/4wLbUj5hEmveOAt.png',
         },
         items: [
           {
