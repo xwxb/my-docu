@@ -4,7 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -40,6 +41,10 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/xwxb/my-docu/tree/master/',
+
+          //katex
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -49,6 +54,10 @@ const config = {
         
           editUrl:
             'https://github.com/xwxb/my-docu/tree/master/',
+
+          //katex
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,10 +70,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'XBan\'s Docu',
+        title: 'Spirt. ArtAcad',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://img.moegirl.org.cn/common/thumb/5/5b/%E4%BC%8A%E5%9C%B0%E7%9F%A5%E8%99%B9%E5%A4%8F%E5%A4%B4%E8%B4%B4.png/200px-%E4%BC%8A%E5%9C%B0%E7%9F%A5%E8%99%B9%E5%A4%8F%E5%A4%B4%E8%B4%B4.png',
         },
         items: [
           {
@@ -86,11 +95,17 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Website',
             items: [
               {
+                label: 'Blog',
+                to: '/blog',
+              },{
                 label: 'Wiki',
                 to: '/docs/intro',
+              },{
+                label: 'Repository',
+                to: '/repo',
               },
             ],
           },
@@ -112,18 +127,15 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Friend Links',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Jetzihan',
+                to: 'https://jetzihan.netlify.app/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-              {
-                html: `<img src="https://s2.loli.net/2022/07/30/ENgfwdO1VpoWjKJ.png"/>`
+                label: 'Jarvlis',
+                href: 'http://www.jarvlis.xyz/',
               }
             ],
           },
@@ -152,6 +164,16 @@ const config = {
         // ```
       },
     ],
+  ],
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
   ],
 };
 
