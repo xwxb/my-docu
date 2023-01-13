@@ -131,6 +131,10 @@ const config = {
             title: 'Friend Links',
             items: [
               {
+                label: 'LOV3',
+                to: 'https://n-wn.github.io/',
+              },
+              {
                 label: 'Jetzihan',
                 to: 'https://jetzihan.netlify.app/',
               },
