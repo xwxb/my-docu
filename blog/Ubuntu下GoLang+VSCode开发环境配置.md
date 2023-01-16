@@ -12,12 +12,12 @@ tags: [学习记录, GoLang]
    sudo apt install golang-go
    ```
 
-2. 添加环境变量
+2. 添加环境变量（理论上PATH里面有就行了，Windows下同理）
    ```shell
    export PATH=$PATH:/usr/local/go/bin
    ```
 
-3. 检查版本，是否配置成功
+3. 检查版本，是否配置成功（这里有时候需要重启，Windows应该就需要）
 
    ```shell
    go version
@@ -29,7 +29,7 @@ tags: [学习记录, GoLang]
 
    `proxy.golang.org` 国内被墙，魔法外的解决方法：
 
-   用这条命令更换代理
+   用这条命令更换代理（Windows下似乎这个命令以后要重启VSCode）
 
    ```shell
    go env -w GOPROXY=https://goproxy.cn,direct
