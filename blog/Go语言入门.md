@@ -128,7 +128,7 @@ for ;t > 0 ; t-- {}
 
 1. 会把值初始化为 `0`
 2. 可以直接输出一整个数组，注意数组直接表示出来的话一定要前置类型 “二维数组” `[][]int`
-3. 不允许在声明时~~赋值~~定义二维数组的值
+3. 不允许在声明时~~赋值~~定义二维数组的值，这个又矛盾，另一种声明方式是可以的
 
 ```go
 var arr [5]int 
@@ -151,10 +151,15 @@ fmt.Println(arr1)
 
 
 
+
+
 切片
+
+类型表示 `[]type`
 
 1. `make()` 和 `append()` 函数均用来返回一个数据类型
 2. `[]string` 表示字符串数组类型，如果没有初始化的话不是空字符而是空格 
+3. 声明时 `[]` 不带 `int` 的数组就是切片，而假如带了就规定是数组不能当切片用了
 
 ```go
 sl := make([]string, 3)
@@ -204,9 +209,19 @@ fmt.Println(str_arr)
 
 
 
+
+
 格式化：
 
 - 详细和非常详细式输出
+
+
+
+![](https://upload-images.jianshu.io/upload_images/19006510-b83c5415e74df21c.png?imageMogr2/auto-orient/strip|imageView2/2/w/427/format/webp)
+
+
+
+- 附带一个 `%q` 是用来保留字符串的引号输出的
 
 
 
@@ -214,10 +229,13 @@ fmt.Println(str_arr)
 
 #### 其他
 
-map
+map 
 
 1. 初始化会是 `0, false` 这些
 2. 完全无序，偏随机
+3. 类型表示 `map[key]value`
+
+完全用法：[Go maps in action - The Go Programming Language](https://go.dev/blog/maps)
 
 
 
@@ -282,7 +300,44 @@ range
 
 
 
+### 编译和应用安装
+
+其实这个概念是用来描述开发一个 Go App 的一个简单的整个过程，碍于入门学习材料不当这里整理得有点问题
+
+这是最后一步，整个流程or必须有的要素应该是：
+
+1. 创建模块、建立依赖系统
+2. 创建新模块、导入模块
+3. 错误处理
+4. 测试
+5. 编译、安装、发布
 
 
-### 杂概念
+
+[Compile and install the application - The Go Programming Language](https://go.dev/doc/tutorial/compile-install)
+
+- `go run` 命令不生成二进制代码，适合一边编辑一边运行
+- `go install` 可以把你生成的可执行文件安装到你的 Go 安装目录里面，然后就可以像 Go 本地工具一样直接运行了，但是不用带 `go` 
+
+
+
+
+
+### 其他杂知识点
+
+
+
+
+
+### Go 学习路线
+
+
+
+[⁢Go 语言学习路线图 - 飞书云文档](https://bytedance.feishu.cn/docs/doccn3SFTuFIAVr4CDZGx48KKdd)
+
+（感觉这个路线还是非常又参考价值的，虽然每次进都加载得贼慢，主要还是先学完所有必学基础然后用到什么学什么吧）
+
+![image-20230118221548778](https://f.pz.al/pzal/2023/01/18/22149ec387d98.png)
+
+
 

@@ -121,6 +121,10 @@ recover
 
 ### 性能优化建议
 
+可以学习：[Effective Go - The Go Programming Language](https://go.dev/doc/effective_go)
+
+
+
 获取建议：Benchmark
 
 - `go test -bench=. -benchmem`

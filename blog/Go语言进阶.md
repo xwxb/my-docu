@@ -17,7 +17,7 @@ tag: [GoLang, 青训营, 学习记录]
 
 
 
-## 协程 GoRoutine
+### 协程 GoRoutine
 
 
 
@@ -165,9 +165,15 @@ go mod
 ### 单元测试
 
 #### 规则
-t1 不太懂
+
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e83ef00192e949069f1e4a169bc5147e~tplv-k3u1fbpfcp-watermark.image?)
+
+-  `*testing.T` 是用来在测试过程中报告和记录的
+
+-  `go test` 的时候，会根据文件夹代表的包名对应的代码的文件名来找相应的 `_test.go` 文件，这是我目前发现单个代码文件名的唯一作用
+
+
 
 
 
@@ -184,7 +190,10 @@ t1 不太懂
     -  测试单元粒度小，测试目的明确
 
 
-#### 依赖
+
+
+
+#### 依赖测试
 
 > 要测试的单元可能有很多依赖
 
