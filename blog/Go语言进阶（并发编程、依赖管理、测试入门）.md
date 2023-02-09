@@ -4,6 +4,10 @@ tag: [GoLang, 青训营, 学习记录]
 
 
 
+[Go 语言进阶 - 工程进阶](https://juejin.cn/post/7188225875211452476/#heading-8)
+
+
+
 ## 并发编程
 
 并发vs并行
@@ -162,6 +166,10 @@ go mod
 - 集成测试
 - 单元测试
 
+
+
+
+
 ### 单元测试
 
 #### 规则
@@ -212,15 +220,30 @@ go mod
 - 打桩测试：不依赖本地文件
 
 
-### 基准测试
 
+自行研究的部分：
+
+
+
+- Monkeypatching 是软件开发中的一种技术，就是用某种方式实现**模仿替换**掉原来程序中**运行时**会用到的一些代码
+- 而mock测试则是对**直接依赖进行模仿**，来测试软件运行时候依赖的问题
+
+
+
+详细说明可以参考：
+
+- [干货！用大白话告诉你什么是Mock测试 - 掘金](https://juejin.cn/post/6955472906465837064)
+
+#### 基准测试 BenchMark
+
+- 重复运行一段代码多次，来测试表现
 - 作用：对代码进行优化
 - 写法 
     - `BenchmarkXxx()`
     - 入参 `*testing.B`
 - 听不懂 fast并性能更优
 
-
+[testing package - testing - Go Packages](https://pkg.go.dev/testing#hdr-Benchmarks)
 
 
 

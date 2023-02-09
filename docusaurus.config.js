@@ -139,6 +139,10 @@ const config = {
                 to: 'https://jetzihan.netlify.app/',
               },
               {
+                label: 'Chatseeon的小世界',
+                to: 'https://csworldlet.rf.gd/'
+              },
+              {
                 label: 'Jarvlis',
                 href: 'http://www.jarvlis.xyz/',
               }
