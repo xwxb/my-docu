@@ -63,6 +63,6 @@ tag: [git, 知识点记录, 青训营]
 
 
 
-- [⁡‬Git 分支管理规范--写的代码都队 - 飞书云文档](https://ypbg9olvt2.feishu.cn/docs/doccnTMRmh7YgMwL2PgZ5moWUsd#)
+- [Git 分支管理规范--写的代码都队 - 飞书云文档](https://ypbg9olvt2.feishu.cn/docs/doccnTMRmh7YgMwL2PgZ5moWUsd#)
 - [A Simplified Convention for Naming Branches and Commits in Git - DEV Community 👩‍💻👨‍💻](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
 - [Git commit与pull的先后顺序_Katherine_Pierce的博客-CSDN博客_git先commit再pull](https://blog.csdn.net/xiaosi_xiaosi/article/details/81336077)
