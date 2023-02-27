@@ -132,7 +132,7 @@ const config = {
             items: [
               {
                 label: 'LOV3',
-                to: 'https://n-wn.github.io/',
+                to: 'https://lov2.netlify.app/',
               },
               {
                 label: 'Jetzihan',

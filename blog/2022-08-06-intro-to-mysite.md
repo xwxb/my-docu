@@ -6,11 +6,28 @@ authors: [xban]
 
 ### 简单介绍
 
+
+
 大概说就是
 
 - [Wiki](/docs/intro) 为比较完整成体系的一些信息或知识，这部分可能自我要求略高，所以内容很少hh
 - [Blog](/blog/) 则为平常随便写写，或者是懒得整理的一些东西，**然后绝大多数产出的内容都会丢这里**，也就是现在这个页面
 - [Repo](/repo) 为个人互联网仓库，存一些个人搜集的互联网资源
 
-
 自我介绍还没写，建议通过 [#随想](/blog/tags/%E9%9A%8F%E6%83%B3) 标签下的文章来了解我~
+
+
+
+***
+
+
+
+一些基本信息：
+
+- [Telegram@XBleach](https://t.me/xbleach) （友链可联系）
+- [Github](https://github.com/xwxb) （暂时还比较虚）
+- [BGM主页](https://bgm.tv/user/xban)
+
+
+
+友链在网站右下角~
