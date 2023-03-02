@@ -1,5 +1,6 @@
 ---
 slug: csiai
+title: Personal AI Collections
 ---
 
 # Personal CSI AI Repo 
@@ -52,7 +53,7 @@ Some old Guides
 - [sudoskys/StableDiffusionBook: Stable Diffusion Book | 关于 Ai 绘画的Wiki | Wiki about Ai painting | Promote information openness | 指南 Guide | Seeking Maintainer&amp;Translator🙌](https://github.com/sudoskys/StableDiffusionBook)
   - [AiDraw - AiDraw](https://stable-diffusion-book.vercel.app/)
 
-
+- [NovelAI - 萌娘百科 万物皆可萌的百科全书](https://zh.moegirl.org.cn/NovelAI)
 
 
 
