@@ -1,7 +1,5 @@
 ---
-
 tags: [知识点记录, GoLang, 青训营]
-
 ---
 
 [第五届青训营 ClickHouse-你没见过的列存储.pptx - 飞书云文档](https://bytedance.feishu.cn/file/boxcnrD9MzRtCRfvnYPZdegpxHf)
