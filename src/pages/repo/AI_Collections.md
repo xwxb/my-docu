@@ -1,6 +1,6 @@
 ---
-slug: csiai
 title: Personal AI Collections
+permalink: /repo/csiai
 ---
 
 # Personal CSI AI Repo 
@@ -35,6 +35,13 @@ Some old Guides
 - [BotPrompts.net – Find, Share, and Request Chatbot Prompts](https://botprompts.net/)
 
 - All related discords (TavernAI included)
+
+### Universal
+
+- [bots can display emotion through images and have voice through TTS. It currently suppo](https://docs.miku.gg/)
+- 
+
+
 
 ## Story-telling
 
@@ -75,12 +82,13 @@ Some old Guides
 
 -> **Fast Online Gen** <-
 
-> most don’t a good quality
+> most don’t has good quality
 
 - CAI
 - YouImageGen
 - [Waifu Diffusion Demo - a Hugging Face Space by hakurei](https://huggingface.co/spaces/hakurei/waifu-diffusion-demo)
 - https://huggingface.co/runwayml/stable-diffusion-v1-5
+- https://app.prodia.com/#/
 
 
 
@@ -97,26 +105,56 @@ Some old Guides
 ## Others
 > also can be combined in various ways with the things above
 
--> **Helper** <-
+### -> **Helper** <-
+
 - CAI (free netrual network to build prompts efficiently)
 - ChatGPT
 	- https://prompts.chat/
 - YouSearch (YouChat)
 - [runningcheese/Awesome-ChatGPT: 奶酪清单：](https://github.com/runningcheese/Awesome-ChatGPT)
 
--> **TTS & Voice Cloning** <-
+
+
+Some API-Based, fast-to-use web applications
+
+
+
+- [https://chatgpt.ddiu.me](https://chatgpt.ddiu.me)
+- [https://chat.xeasy.me](https://chat.xeasy.me)
+
+- [https://chat.bujj.org](https://chat.bujj.org)
+- [https://ai.ls](https://ai.ls)
+- [https://desk.im](https://desk.im)
+- https://freegpt.one
+
+
+
+(Maybe old API using, much restrictions)
+
+- https://xc.com
+
+- https://www.cveoy.com
+
+- [https://aigcfun.com](https://aigcfun.com)
+
+- [https://chat.forchange.cn](https://chat.forchange.cn)
+
+
+
+### -> **TTS & Voice Cloning** <-
 
 - https://rentry.org/AI-Voice-Cloning
 - https://github.com/babysor/MockingBird
 
--> **CodeGen** <-
+### -> **CodeGen** <-
+
 - YouCode 
 - Copilot
 - ChatGPT
 - [Auto Backend](https://www.autobackend.dev/)
 
--> **Cloud GPU / TPU** <-
+### -> **Cloud GPU / TPU** <-
 
 - colab
 - kaggle
-- [AI Studio,](https://aistudio.baidu.com/aistudio/newbie)
+- [AI Studio](https://aistudio.baidu.com/aistudio/newbie)
