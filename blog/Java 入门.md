@@ -32,7 +32,7 @@ tags: [知识点记录, Java]
 
 
 
-## Java 科技可以做什么？
+### Java 科技可以做什么？
 
 - 开发工具
   - javac
@@ -46,6 +46,46 @@ tags: [知识点记录, Java]
 
 
 
-## 参考资料
+### 参考资料
 
 - [Lesson: The Java Technology Phenomenon (The Java™ Tutorials &gt; Getting Started)](https://docs.oracle.com/javase/tutorial/getStarted/intro/index.html)
+
+
+
+## 程序运行
+
+
+
+理解 `.class` 文件
+
+- `.class` 文件是 `.java` 源码编译后得到的文件
+- 它是一种 Bytecode，专门设计为让 JVM 执行的
+- 而 JVM 则是一种跨平台的程序，通过将 `.class` 转化为相应的机器代码以执行程序
+
+
+
+
+
+Java 是比较典型的面向对象编程语言，大部分可以类比 CPP 进行学习，这里补充一些理解的细节：
+
+
+
+`public static void main(String[] args)`
+
+- 这是一个类中的方法之一，我们把类中的函数叫做「方法」
+
+- `static` 和 CPP 中一样，当一个函数或者变量是静态的，说明这个存储的位置不一样，它们不属于单个类的示例，是所有类共用的，且可以在类没有声明的时候就使用
+
+- `main` 是一个类中所有函数的入口，当我们执行一个类的代码的时候，我们会从这里进入；没有主函数的类不能直接运行
+
+- `args` 这个也是 clang 里有的，就是可以把运行时候的附加参数带进去
+
+  比如`System.out.println("Hello, " + args[0] + "!");` 这个可以在执行文件的时候，把命令后直接带的参数读进去，而不需要后续扫描
+
+  
+
+  
+
+  
+
+  

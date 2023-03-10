@@ -1,6 +1,6 @@
 ---
 title: Personal AI Collections
-permalink: /repo/csiai
+permalink: /csiai
 ---
 
 # Personal CSI AI Repo 
@@ -36,6 +36,14 @@ Some old Guides
 
 - All related discords (TavernAI included)
 
+
+
+### OAI
+
+- all about oai with tavai, a link about LLaMA[/aicg/ Catch-Up Rentry](https://rentry.co/spoonfeed)
+
+
+
 ### Universal
 
 - [bots can display emotion through images and have voice through TTS. It currently suppo](https://docs.miku.gg/)
@@ -64,6 +72,10 @@ Some old Guides
 
 
 
+-  a simple embed model training tutorial [Randanon's Oversimplified Embed Training for Characters (Dec 30 2022)](https://rentry.co/simplified-embed-training)
+
+
+
 
 -> **All Models** <-
 
@@ -75,8 +87,6 @@ Some old Guides
 -> **All Tools & Prompts** <-
 
 - Prompts Maker (CAI Tool): https://beta.character.ai/chat?char=Au8eXsSyeU_vS-1I0uCG_tvNgGz9GNn6vjjViMbnCkw
-
-
 
 
 
@@ -122,6 +132,8 @@ Some API-Based, fast-to-use web applications
 - [https://chatgpt.ddiu.me](https://chatgpt.ddiu.me)
 - [https://chat.xeasy.me](https://chat.xeasy.me)
 
+(the above may hava been closed)
+
 - [https://chat.bujj.org](https://chat.bujj.org)
 - [https://ai.ls](https://ai.ls)
 - [https://desk.im](https://desk.im)
@@ -145,6 +157,10 @@ Some API-Based, fast-to-use web applications
 
 - https://rentry.org/AI-Voice-Cloning
 - https://github.com/babysor/MockingBird
+
+
+
+
 
 ### -> **CodeGen** <-
 

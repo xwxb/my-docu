@@ -71,6 +71,7 @@ OLAP具体说明
 - 相同类型归类并排序
 
 常见压缩算法介绍
-LZ4压缩算法：可以直接将连续存储中的前面的部分用一个二元组表示
-Run-length encoding：W2R3这样
-Delta encoding：就是存和base的差值
+
+- LZ4压缩算法：可以直接将连续存储中的前面的部分用一个二元组表示
+- Run-length encoding：W2R3这样
+- Delta encoding：就是存和base的差值
