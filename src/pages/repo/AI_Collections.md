@@ -3,8 +3,11 @@ title: Personal AI Collections
 permalink: /csiai
 ---
 
-# Personal CSI AI Repo 
+# Personal CSI AI Repo
+
 > All about Chatbot, Story-telling and Image-generator AI
+>
+> well, as you see, now there is fucking mess, I’m going to reorganise it into three new reduced docs in some days, there will be only a temporary collection.
 
 ## ChatBot
 
@@ -47,16 +50,46 @@ Some old Guides
 ### Universal
 
 - [bots can display emotion through images and have voice through TTS. It currently suppo](https://docs.miku.gg/)
+
+
+
+### Other Models
+
 - 
 
+  
 
 
-## Story-telling
+
+## Dynamic Story-telling
+
+-> **Wiki & Guide** <-
 
 - [AI Dynamic Storytelling Wiki](https://aids.miraheze.org/wiki/Main_Page)
 
 
+
+-> **Prompts** <-
+
+
+
+
 - [/aids/ Prompts](https://aetherroom.club/)
+- [Soft Prompt Guide](https://rentry.co/shiso-softprompt-quickstart)
+
+
+
+-> Models <-
+
+- Kobold
+
+- [hakurei/lotus-12B · Hugging Face](https://huggingface.co/hakurei/lotus-12B)
+
+  
+
+-> BBS <-
+
+- [(/vg/ - /aids/ — AI Dynamic Storytelling General - Video Game Generals - 4chan](http://boards.4channel.org/vg/thread/422121598/aids-ai-dynamic-storytelling-general)
 
 
 
@@ -87,6 +120,7 @@ Some old Guides
 -> **All Tools & Prompts** <-
 
 - Prompts Maker (CAI Tool): https://beta.character.ai/chat?char=Au8eXsSyeU_vS-1I0uCG_tvNgGz9GNn6vjjViMbnCkw
+- [NovelAI tag在线生成器](https://wolfchen.top/tag/)
 
 
 
@@ -99,6 +133,8 @@ Some old Guides
 - [Waifu Diffusion Demo - a Hugging Face Space by hakurei](https://huggingface.co/spaces/hakurei/waifu-diffusion-demo)
 - https://huggingface.co/runwayml/stable-diffusion-v1-5
 - https://app.prodia.com/#/
+- https://www.bing.com/create
+- DALL-E
 
 
 
@@ -111,19 +147,31 @@ Some old Guides
 
 
 
+-> **Some Image Dataset&base** <-
+
+- [konachan.com - Konachan.com Anime Wallpapers](https://konachan.com/)
+- [Gelbooru | Free Anime and Hentai Gallery](https://gelbooru.com/)
+- [Danbooru: Anime Image Board](https://danbooru.donmai.us/)
+- [Safebooru - Anime picture search engine!](https://safebooru.org/)
+
+
+
 
 ## Others
 > also can be combined in various ways with the things above
 
 ### -> **Helper** <-
 
+
+
+Main Platform
+
 - CAI (free netrual network to build prompts efficiently)
 - ChatGPT
 	- https://prompts.chat/
 - YouSearch (YouChat)
-- [runningcheese/Awesome-ChatGPT: 奶酪清单：](https://github.com/runningcheese/Awesome-ChatGPT)
 
-
+- NewBing
 
 Some API-Based, fast-to-use web applications
 
@@ -131,8 +179,23 @@ Some API-Based, fast-to-use web applications
 
 - [https://chatgpt.ddiu.me](https://chatgpt.ddiu.me)
 - [https://chat.xeasy.me](https://chat.xeasy.me)
+- [左风的ChatGPT](https://jyf6wk-chat-gpt.site.laf.dev/)
 
-(the above may hava been closed)
+
+
+https://94gpt.com/
+
+https://askai.ws/
+
+https://chat.51buygpt.com/
+
+http://v.ourwechat.com/chatgpt.html
+
+https://fastgpt.app/
+
+https://chat.ninvfeng.xyz/
+
+
 
 - [https://chat.bujj.org](https://chat.bujj.org)
 - [https://ai.ls](https://ai.ls)
@@ -150,6 +213,22 @@ Some API-Based, fast-to-use web applications
 - [https://aigcfun.com](https://aigcfun.com)
 
 - [https://chat.forchange.cn](https://chat.forchange.cn)
+
+
+
+ref:
+
+[runningcheese/Awesome-ChatGPT: 奶酪清单：](https://github.com/runningcheese/Awesome-ChatGPT)
+
+
+
+
+
+**->GPT-based Apps<-** 
+
+- https://sql-gpt.vercel.app/
+
+
 
 
 
@@ -174,3 +253,7 @@ Some API-Based, fast-to-use web applications
 - colab
 - kaggle
 - [AI Studio](https://aistudio.baidu.com/aistudio/newbie)
+
+
+
+### -> **Prompt Engineering** <-
