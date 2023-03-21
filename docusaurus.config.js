@@ -140,7 +140,7 @@ const config = {
               },
               {
                 label: 'Chatseeon的小世界',
-                to: 'https://csworldlet.rf.gd/'
+                to: 'https://csworldlet.top/'
               },
               {
                 label: 'Jarvlis',

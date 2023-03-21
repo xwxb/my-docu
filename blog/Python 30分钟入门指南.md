@@ -1,5 +1,6 @@
 ---
 tags: [搬运, Python]
+slug: python-intro
 ---
 
 
