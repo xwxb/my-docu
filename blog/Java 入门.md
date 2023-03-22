@@ -86,6 +86,17 @@ Java 是比较典型的面向对象编程语言，大部分可以类比 CPP 进�
 
   
 
-  
+## 面向对象的基本概念
 
-  
+
+
+- 对象
+- 类：prototype of object, cleanly modeling state and behavir
+- 继承
+- 接口
+- 
+
+
+
+
+

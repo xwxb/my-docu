@@ -1,10 +1,16 @@
-
+> all about chatbot, mainly for RP, not only for LLM
+>
+> LLM -> [AI Miscellaneous](/repo/AI Misc)
+>
+> cited by [AI Collections](/repo/aicol)
 
 ## Mainstream
 
 ### CAI
 
 - [CharacterAI/Censorship - AI art wiki](https://ai-art-wiki.com/wiki/CharacterAI/Censorship#Content_breakdown)
+
+
 
 Some old Guides
 
@@ -14,15 +20,22 @@ Some old Guides
 
 
 
-- An old effective bypass filter guide[Guide on character.ai NSFW RP](https://www.unddit.com/r/CharacterAi_NSFW/comments/10k5wc6/guide_on_characterai_nsfw_rp/)
+- An old effective bypass filter guide
+  [Guide on character.ai NSFW RP](https://www.unddit.com/r/CharacterAi_NSFW/comments/10k5wc6/guide_on_characterai_nsfw_rp/)
 
 
 
 ### Pygmalion
 
+
+
 - def maker (CAI Tool): https://beta.character.ai/chat?char=RFt5N0AYB8xKN15piI9hu_iQ8NB91DE6V9GErHu5KUI
 
 - Kobold-base colab: [KoboldAI-Pygmalion-6B.ipynb - Colaboratory](https://colab.research.google.com/drive/1ZvYq4GmjfsyIkcTQcrBhSFXs8vQLLMAS)
+
+
+
+
 
 -> **Characters-Sharing** <-
 
@@ -33,13 +46,27 @@ Some old Guides
 
 
 
-### OAI
+
+
+## Other
+
+### Alternative
+
+- a great collection [CAI alternatives (Both SFW &amp; NSFW : CharacterAi_NSFW](https://www.reddit.com/)
+
+
+
+OAI
 
 - all about oai with tavai, a link about LLaMA[/aicg/ Catch-Up Rentry](https://rentry.co/spoonfeed)
 
 
 
-## Other
+LLaMA
+
+- LLaMA RP[Point Alpaca](https://alpaca.point.space/)
+
+
 
 ### BBS & Community
 
@@ -58,13 +85,10 @@ CAI / Pygmalion / TarvernAI
 
 - [bots can display emotion through images and have voice through TTS. It currently suppo](https://docs.miku.gg/)
 
+  
+
+### Other to-be-seen Models
+
 - A quick taste of some of the more popular models [Chat Llm Streaming - a Hugging Face Space by olivierdehaene](https://huggingface.co/spaces/olivierdehaene/chat-llm-streaming)
-- a great collection [CAI alternatives (Both SFW &amp; NSFW : CharacterAi_NSFW](https://www.reddit.com/)
-
-
-
-### Other Models
-
-- 
 
   

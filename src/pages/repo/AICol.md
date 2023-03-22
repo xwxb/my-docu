@@ -9,13 +9,10 @@ permalink: /csiai
 >
 > well, as you see, now there is fucking mess, I’m going to reorganise it into three new reduced docs in some days, there will be only a temporary collection.
 
-## ChatBot
-
-- 
+## [ChatBot](/repo/chatbot)
 
 
-
-## Dynamic Story-telling
+## [Dynamic Story-telling](/repo/aids)
 
 
 
@@ -84,3 +81,8 @@ permalink: /csiai
 
 
 ## Others
+
+
+### [GPT](/repo/gpt)
+
+### [Miscellaneous](/repo/aimisc)
