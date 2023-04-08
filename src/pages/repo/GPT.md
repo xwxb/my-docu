@@ -13,8 +13,8 @@
   - ChatGPT-web
     - https://94gpt.com/
     - [BAI Chat](https://chat.theb.ai/#/chat/)
+    - https://chat.binjie.site:7777/#/
   - DDIU8081
-    - [https://chat.xeasy.me](https://chat.xeasy.me)
   - Original Mirror
     - https://freegpt.one
 
@@ -64,7 +64,7 @@
   - GitHub [f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.](https://github.com/f/awesome-chatgpt-prompts)
   - EBook [The Art of ChatGPT Prompting: A Guide to Crafting Clear and Effective Prompts](https://fka.gumroad.com/l/art-of-chatgpt-prompting)
 
-  
+- [ChatGPT 指令大全](https://www.explainthis.io/zh-hans/chatgpt)
 
 
 
@@ -98,11 +98,15 @@ Contextual understanding / generation / summary
 
 
 
+Chatification
+
 - ChatPDF
 
 - ChatPaper
 
 - ChatDoc
+
+- [BookAI.chat - Chat whit any book](https://www.bookai.chat/)
 
 
 
