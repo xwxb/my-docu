@@ -66,6 +66,10 @@
 
 - [ChatGPT 指令大全](https://www.explainthis.io/zh-hans/chatgpt)
 
+- [Hello from Learning Prompt | Learning Prompt](https://learningpromt.wiki/)
+
+- [Learn Prompting | Learn Prompting](https://learnprompting.org/)
+
 
 
 
@@ -84,28 +88,45 @@ Mainstream Alternatives / Tools (for general usage)
 
 GPT for search
 
-- [Phind: AI search engine](https://www.phind.com/)
-- NewBing
-- [Search](https://search.kg/)
-- YouChat
+- General
+
+  - [Phind: AI search engine](https://www.phind.com/)
+
+  - NewBing
+
+  - [Search](https://search.kg/)
+
+  - YouChat
+
+  - [Consensus - Evidence-Based Answers, Faster](https://consensus.app/home/)
+
+- For reseerch
+
+  - [Elicit: The AI Research Assistant](https://elicit.org/)
+
+
 
 
 
 Contextual understanding / generation / summary
 
-- ChatMind
+- ChatMind (Very useful but paid now, looking for open source alternative)
 - Merlin Blog summary
 
 
 
 Chatification
 
-- ChatPDF
+- Doc
+  - ChatPDF
 
-- ChatPaper
+  - ChatPaper
 
-- ChatDoc
+  - ChatDoc
 
+  - [DocsBot AI - Custom chatbots and content generation from your documentation](https://docsbot.ai/)
+
+- [Chatbase | ChatGPT for your website](https://www.chatbase.co/)
 - [BookAI.chat - Chat whit any book](https://www.bookai.chat/)
 
 
@@ -142,7 +163,10 @@ Copilot
 
   
 
+large-extent Generator
 
+- ChatProgram
+- 
 
 
 
@@ -150,6 +174,26 @@ Copilot
 
 
 
-to try
+### Utilities
 
-- a redbook co
+
+
+#### UI
+
+- [Chanzhaoyu/chatgpt-web: 用 Express 和 Vue3 搭建的 ChatGPT 演示网页](https://github.com/Chanzhaoyu/chatgpt-web)
+- [ddiu8081/chatgpt-demo: A demo repo based on OpenAI API.](https://github.com/ddiu8081/chatgpt-demo)
+- [Yidadaa/ChatGPT-Next-Web: One-Click to deploy well-designed ChatGPT web UI on Vercel. 一键拥有你自己的 ChatGPT 网页服务。](https://github.com/Yidadaa/ChatGPT-Next-Web)
+- chatgpt vercel
+- [lencx/ChatGPT: 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)](https://github.com/lencx/ChatGPT)
+
+
+
+#### Boost
+
+- [microsoft/visual-chatgpt: Official repo for the paper: Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://github.com/microsoft/visual-chatgpt)
+
+
+
+#### Also for other LLMs tools
+
+see in 

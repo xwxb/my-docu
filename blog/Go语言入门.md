@@ -4,7 +4,11 @@ tags: [知识点记录, GoLang, 青训营]
 
 主要参考圣经 gopl.io 和字节青训基础课
 
-​	
+[【后端专场 学习资料一】第五届字节跳动青训营 - 掘金](https://juejin.cn/post/7188225875211452476)
+
+[‍⁢⁢‍‍ ⁡⁢⁣⁤⁣⁤⁢⁡⁢⁡‬⁡⁤‍‍⁤‬⁡ ⁡⁢‍‍‌⁣⁡ ⁣⁤⁣ ⁢‍⁣⁤⁤Go 语言上手 - 基础语法 .pptx - 飞书云文档](https://bytedance.feishu.cn/file/boxcnDQ57K0wtcZtA3Y26ORKwec)
+
+
 
 ### 介绍
 
@@ -335,7 +339,7 @@ range
 
 [⁢Go 语言学习路线图 - 飞书云文档](https://bytedance.feishu.cn/docs/doccn3SFTuFIAVr4CDZGx48KKdd)
 
-（感觉这个路线还是非常又参考价值的，虽然每次进都加载得贼慢，主要还是先学完所有必学基础然后用到什么学什么吧）
+（感觉这个路线还是非常有参考价值的，虽然每次进都加载得贼慢，主要还是先学完所有必学基础然后用到什么学什么吧）
 
 ![image-20230118221548778](https://f.pz.al/pzal/2023/01/18/22149ec387d98.png)
 

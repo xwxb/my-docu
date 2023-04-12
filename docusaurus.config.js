@@ -135,8 +135,8 @@ const config = {
                 to: 'https://lov2.netlify.app/',
               },
               {
-                label: 'Jetzihan',
-                to: 'https://jetzihan.netlify.app/',
+                label: 'Jetlab',
+                to: 'https://jetlab.live/',
               },
               {
                 label: 'Chatseeon的小世界',
