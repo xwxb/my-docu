@@ -49,10 +49,16 @@
 
 
 
-- a other person collection
+- other simple collections
   - https://cc.ai55.cc/
   - axu (personal blog)
   - runningcheese (github)
+
+
+
+- other complex colleciton 
+  (There are a lot of guiding information, it is recommended to have a certain ability to identify, have their own vertical field of friends to read)
+  - [AIGC聚集地·ChatGPT·Midjourney](https://www.yuque.com/popponyj/aigc)
 
 
 
@@ -161,7 +167,12 @@ Copilot
 
 - cursor
 
-  
+- A Creator [Copilot Hub](https://app.copilothub.ai/home)
+
+
+
+
+
 
 large-extent Generator
 
@@ -169,6 +180,25 @@ large-extent Generator
 - 
 
 
+
+Lite Tool
+
+- [Regex.ai - Artificial Intelligence Regular Expression Generator](https://regex.ai/)
+
+
+
+AIGC Detector
+
+- [AI Content Detector | GPT-3 | GPT-4 | ChatGPT - Writer](https://writer.com/ai-content-detector/)
+
+
+
+
+
+Translator
+
+- [AI字幕助手](https://ai.cgsv.top/zh-CN)
+- 
 
 ## Others
 
@@ -190,7 +220,13 @@ large-extent Generator
 
 #### Boost
 
+- [domeccleston/sharegpt: Easily share permanent links to ChatGPT conversations with your friends](https://github.com/domeccleston/sharegpt)
+- [moeakwak/chatgpt-web-share: 共享 ChatGPT 账号给多用户同时使用！A web application that allows multiple users to share one ChatGPT account at the same time, developed using fastapi &amp; vue3. Supports GPT-4! 用于朋友之间共享或合租 ChatGPT 账号。使用 FastAPI + Vue3 开发。支持 ChatGPT Plus / 使用 GPT-4 / 用户请求限制等功能。](https://github.com/moeakwak/chatgpt-web-share)
 - [microsoft/visual-chatgpt: Official repo for the paper: Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://github.com/microsoft/visual-chatgpt)
+
+
+
+
 
 
 

@@ -38,7 +38,4 @@ authors: [xban]
 一些基本信息：
 
 - [Telegram@XBleach](https://t.me/xbleach) （友链可联系）
-- [Github](https://github.com/xwxb) （暂时还比较虚）
-- [BGM主页](https://bgm.tv/user/xban)
-
-
+- [@xban | Linktree](https://linktr.ee/xban)
