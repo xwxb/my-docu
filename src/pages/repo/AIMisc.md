@@ -23,7 +23,13 @@
 
   - NovelAI
 
-    
+
+
+### Projects
+
+- [Open Assistant](https://open-assistant.io/)
+
+
 
 ### Utilities
 

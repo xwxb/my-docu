@@ -10,7 +10,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '真央灵术院',
-  tagline: 'Just an ordinary BLEACH FAN',
+  tagline: 'coding for life',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -81,7 +81,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Wiki',
+            label: 'DiGarden',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/repo', label: 'Repo', position: 'right'},
@@ -102,7 +102,7 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },{
-                label: 'Wiki',
+                label: 'DiGarden',
                 to: '/docs/intro',
               },{
                 label: 'Repository',
