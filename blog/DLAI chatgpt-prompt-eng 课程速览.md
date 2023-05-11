@@ -6,9 +6,7 @@
 
 > *Generative AI offers many opportunities for AI engineers to build, in minutes or hours, powerful applications that previously would have taken days or weeks. I’m excited about sharing these best practices to enable many more people to take advantage of these revolutionary new capabilities.*
 >
-> <div style="text-align: right;">
 > – Andrew Ng
-> </div>
 
 ## Intro
 
