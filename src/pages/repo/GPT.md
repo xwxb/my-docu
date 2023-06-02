@@ -11,13 +11,19 @@
 currently performing-well
 
 - ChatGPT-web
-  - https://94gpt.com/
   - [BAI Chat](https://chat.theb.ai/#/chat/)
   - https://chat.binjie.site:7777/#/
 - DDIU8081
 - Original Mirror
   - https://freegpt.one
 - Next ChatGPT
+
+
+
+- 免费帐号流畅聊天方案
+  - 潘多拉共享版后端，免登录[https://chat.zhile.io/auth/login](https://chat.zhile.io/auth/login) 
+  - 本地配置潘多拉，可以选择命令行还是网页
+  - 游猴脚本 [KeepChatGPT](https://greasyfork.org/zh-CN/scripts/462804-keepchatgpt)
 
 
 
@@ -28,6 +34,11 @@ other simple collections
 - runningcheese (github)
 - [国内可以使用的GPT-3免费网站](https://bangumi.tv/group/topic/380042)
 
+- [ChatGPT 免费网站在线体验列表导航站](https://lzw.me/x/chatgpt-sites/?type=all)
+- OneTab
+
+
+
 
 
 other complex colleciton 
@@ -35,6 +46,7 @@ other complex colleciton
 
 - [AIGC聚集地·ChatGPT·Midjourney](https://www.yuque.com/popponyj/aigc)
 - [runningcheese/Awesome-ChatGPT: 奶酪清单 - 日更中！](https://github.com/runningcheese/Awesome-ChatGPT)
+- [‌⁣⁤‌⁢‌‬‬⁢‍⁡ ‬⁢⁢‬‬‍‌‬‍⁢⁤⁡⁤‬⁢⁢‌ ⁣‍⁣⁣⁣⁤⁣‌AI工具聚合页（日更） - 飞书云文档](https://ki6j1b0d92h.feishu.cn/wiki/YJuyw7rT0iq8IMkKhZZcZ5IinNh?table=tblxxdXNmcvo2Mbw&view=vewDei7GHZ)
 
 
 
@@ -54,6 +66,8 @@ Shared Account & API Key
 Collections
 
 - [ChatGPT 指令大全](https://www.explainthis.io/zh-hans/chatgpt)
+
+- https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json
 
 - prompts.chat
 
@@ -178,7 +192,13 @@ Copilot
 
 - cursor
 
-- A Creator [Copilot Hub](https://app.copilothub.ai/home)
+
+
+App Creator
+
+- 
+-  [Copilot Hub](https://app.copilothub.ai/home)
+- Dify
 
 
 
@@ -209,6 +229,12 @@ AIGC Detector
 - [AI Content Detector | GPT-3 | GPT-4 | ChatGPT - Writer](https://writer.com/ai-content-detector/)
 
 
+
+
+
+keycost manager
+
+- [Puddl](https://puddl.io/analytics?ref=producthunt)
 
 
 
