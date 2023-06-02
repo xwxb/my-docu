@@ -33,7 +33,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Starting:                                                    |                                                              |
 | `gdb`                                                        | Start gdb                                                    |
-| `gdb <file>`                                                 | Start gdb and load <file>                                    |
+| `gdb <file>`                                                 | Start gdb and load `<file>`                                    |
 | Running and stopping:                                        |                                                              |
 | `quit`                                                       | Exit gdb                                                     |
 | `run`                                                        | Run program                                                  |
