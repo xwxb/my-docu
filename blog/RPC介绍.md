@@ -16,11 +16,18 @@ RPC (Remote Procedure Calls) 调用和本地函数的区别
 3. 网络传输
 
 
+
+
+
+
 RPC 概念模型
 
 这里的 Stub 是一个打包解包参数和结果的过程的过程，有点“票根”的意思
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/34547ead74fa4c03895cfde39faeef17~tplv-k3u1fbpfcp-watermark.image?)
+
+
+
 
 
 RPC 的完整过程
@@ -34,12 +41,18 @@ RPC 的完整过程
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d9e5025aeae7488b9cfeb7bbfa1316ed~tplv-k3u1fbpfcp-watermark.image?)
 
+
+
 RPC 好处和带来的问题
 
-好处主要是能够隔离分别处理，效率高
-问题是服务器宕机不好处理
+- 好处主要是能够隔离分别处理，效率高
+- 问题是服务器宕机不好处理
 
-由RPC框架解决
+- 这些问题就是RPC框架解决的
+
+
+
+
 
 ## 分层设计
 
@@ -53,7 +66,7 @@ RPC 好处和带来的问题
 数据格式
 - 语言特定的格式
 - 文本格式
-- 二进制编码：跨语言、高性能，ProtoBuf就是一种，常见的还有Thrift 的 BinaryProtocol
+- 二进制编码：跨语言、高性能，ProtoBuf就是一种，常见的还有 Thrift 的 BinaryProtocol
 
 二进制编码
 
@@ -89,8 +102,6 @@ RPC 好处和带来的问题
 
 Sockets API
 
-
-
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e35776dc087846c9b3d24b7863f9f075~tplv-k3u1fbpfcp-watermark.image?)
 
 ……
@@ -98,8 +109,170 @@ Sockets API
 ## 关键指标分析
 
 
+
+### 稳定性
+
+1. 保障策略
+   1. 熔断
+   2. 限流
+   3. 超时控制
+2. 请求成功率
+3. 长尾请求：不等上一个请求请求完
+
+
+
+### 易用性
+
+
+
+
+
+
+
 ## 企业实践
 
 主要是为了跳出课本以外，接触企业实践
 
 ### 整体架构 —— Kitex
+
+
+
+
+
+***
+
+后附：使用 gRPC 在 Golang 微服务中进行 RPC 的示例：
+
+1. 定义 gRPC 服务接口：
+
+```protobuf
+// service.proto
+
+syntax = "proto3";
+
+package myservice;
+
+service MyService {
+  rpc GetData(RequestMessage) returns (ResponseMessage) {}
+}
+
+message RequestMessage {
+  string id = 1;
+}
+
+message ResponseMessage {
+  string data = 1;
+}
+```
+
+2. 根据定义的接口生成 gRPC 服务代码：
+
+使用以下命令将 `service.proto` 文件生成对应的 gRPC 服务代码：
+
+```shell
+protoc --go_out=. --go-grpc_out=. service.proto
+```
+
+上述命令将生成 `service.pb.go` 和 `service_grpc.pb.go` 两个文件。
+
+3. 实现 gRPC 服务：
+
+```go
+// server.go
+
+package main
+
+import (
+	"context"
+	"log"
+	"net"
+
+	"google.golang.org/grpc"
+
+	pb "path/to/generated/proto/package"
+)
+
+type server struct{}
+
+func (s *server) GetData(ctx context.Context, req *pb.RequestMessage) (*pb.ResponseMessage, error) {
+	// 处理业务逻辑，根据 req 中的参数返回对应的数据
+	data := fetchData(req.ID)
+
+	// 构造响应消息
+	res := &pb.ResponseMessage{
+		Data: data,
+	}
+
+	return res, nil
+}
+
+func fetchData(id string) string {
+	// 实际的数据获取逻辑
+	return "Data for ID: " + id
+}
+
+func main() {
+	// 创建 gRPC 服务器
+	grpcServer := grpc.NewServer()
+
+	// 注册服务实现
+	pb.RegisterMyServiceServer(grpcServer, &server{})
+
+	// 监听端口
+	listener, err := net.Listen("tcp", ":50051")
+	if err != nil {
+		log.Fatalf("Failed to listen: %v", err)
+	}
+
+	// 启动服务
+	log.Println("gRPC server listening on port 50051...")
+	if err := grpcServer.Serve(listener); err != nil {
+		log.Fatalf("Failed to serve: %v", err)
+	}
+}
+```
+
+4. 编写 gRPC 客户端：
+
+```go
+// client.go
+
+package main
+
+import (
+	"context"
+	"log"
+
+	"google.golang.org/grpc"
+
+	pb "path/to/generated/proto/package"
+)
+
+func main() {
+	// 连接 gRPC 服务器
+	conn, err := grpc.Dial("localhost:50051", grpc.WithInsecure())
+	if err != nil {
+		log.Fatalf("Failed to connect: %v", err)
+	}
+	defer conn.Close()
+
+	// 创建 gRPC 客户端
+	client := pb.NewMyServiceClient(conn)
+
+	// 构造请求消息
+	req := &pb.RequestMessage{
+		ID: "123",
+	}
+
+	// 发起 RPC 调用
+	res, err := client.GetData(context.Background(), req)
+	if err != nil {
+		log.Fatalf("Failed to call GetData: %v", err)
+	}
+
+	// 处理响应结果
+	log.Printf("Response data: %s", res.Data)
+}
+```
+
+在上述示例中，通过定义 `service.proto` 文件来描述 gRPC 服务接口，并使用 `protoc` 命令生成对应的 gRPC 服务代码。然后，实现服务接口并启动 gRPC 服务器。客户端通过创建 gRPC 连接，并调用生成的客户端代码来发起
