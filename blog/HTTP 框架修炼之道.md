@@ -37,7 +37,6 @@ tags: [青训营笔记]
 - 业务层：业务逻辑，想要发送消息邀请看电影
 - 
 
-
 ### 不足与展望
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5f3658b317e4a5e87e733c7598308ff~tplv-k3u1fbpfcp-watermark.image?)

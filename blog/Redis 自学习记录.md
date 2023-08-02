@@ -73,11 +73,12 @@ func main() {
 		DB:       0,
 	})
         
-            // Ping the Redis server to check if it's running
-        _, err := client.Ping(context.Background()).Result()
-        if err != nil {
-            panic(err)
-        }
+    
+    // Ping the Redis server to check if it's running
+    _, err := client.Ping(context.Background()).Result()
+    if err != nil {
+        panic(err)
+    }
 
 
 	// set a key-value pair
@@ -225,7 +226,53 @@ func removeFromCart(client *redis.Client, userID string, itemID string) error {
 
 
 
-## 缓存穿透和雪崩
+## 缓存问题
+
+https://xiaolincoding.com/redis/cluster/cache_problem.html
 
 
+
+### 雪崩
+
+雪崩：大量缓存失效，硬盘压力骤增，数据库顶不住了
+
+- 缓存击穿是雪崩的一种情况，表示【热点数据的过期】
+
+
+
+解决：
+
+- 均匀合理设置过期时间
+- 分布互斥锁
+- 后台定时更新缓存
+
+
+
+
+
+### 穿透
+
+穿透是指雪崩以后，我们仍然没法构建缓存，这种情况下造成的彻底故障压力
+
+即数据库也没有缓存
+
+
+
+原因：
+
+- 误操作
+- 黑客攻击
+
+
+
+解决
+
+- 非法请求限制：先检测存不存在
+- 空值作为默认值：如果数据库也没有那就不要再请求了
+
+
+
+布隆过滤器是一种优雅的查询方案
+
+- 原理就是用数据计算多个哈希值，然后对数组长度取模，然后进行一种位图的表示来实现快速查询
 

@@ -80,7 +80,9 @@ GORM STATEMENT = n * Chain Method + Finisher Method
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/28a5b2a2d6e244ba9f8c0b303c02d75e~tplv-k3u1fbpfcp-watermark.image?)
 (很有意义）
+
 ### 数据序列化和 SQL 表达式
+
 1. SQL 更新和创建
 2. SQL 查询
 3. 数据序列化
