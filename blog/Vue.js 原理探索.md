@@ -60,7 +60,7 @@ tags: [知识点记录, Vue, AIChatHis]
 区别和联系
 
 - 选项式 API 是在 组合式 API 的基础上实现的
-- 组合式 API 中使用了 `<script setup>` 来声明脚本，<script setup> 中的导入和顶层变量/函数都能够在模板中直接使用。
+- 组合式 API 中使用了 `<script setup>` 来声明脚本，`<script setup>` 中的导入和顶层变量/函数都能够在模板中直接使用。
 - 两种 API 风格（Options API 和 Composition API）是可以混合使用的
   - `setup` 函数被用来替代选项式API中的 `data` 选项
   - 组合式 API 中，没有使用 setup + ref 的需要使用 export default + setup() 选项 来实现相同的效果
