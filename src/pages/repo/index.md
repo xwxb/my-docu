@@ -10,7 +10,9 @@
 - http://f2.sbgpt.cc/
 - http://39.106.136.125:3080/
 - http://free.chataionline.top/
+- https://chatapi.onechat.fun/chat/
 - 致敬pandora：https://sharedchat.cn/shared.html 
+
 大部分是还挺眼熟的热佬做的反代，好用请考虑捐赠和充值支持。
 但是大额不保障请自己注意辨别，可以考虑先来问问我。
 
